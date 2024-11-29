@@ -27,7 +27,7 @@ else:
 # Temperatura >= 18°C e <= 26°C é 'Normal'
 # Temperatura > 26°C é 'Alta'
 
-# temperatura = float(input("Por favor insira a temperatura: "))
+temperatura = float(input("Por favor insira a temperatura: "))
 
 if temperatura < 18:
     print("Temperatura: BAIXA")
